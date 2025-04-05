@@ -1,4 +1,6 @@
-﻿namespace Schedule1Recipes
+﻿using System.Globalization;
+
+namespace Schedule1Recipes
 {
     internal sealed class WeedPricesChart(ComboBox ListDropdown, ComboBox PricesDropdown)
     {
@@ -88,6 +90,25 @@
                     ListDropdown.Items.Add(item);
                 }
                 ListDropdown.SelectedIndex = 0;
+            }
+        }
+        public void BuildPricelist()
+        {
+            string[] prices = new string[] {
+        "41", "43", "47", "49", "50", "51", "52", "53", "54", "55", "57", "58", "59", "60", "61", "62", "64", "66", "67", "69", "70", "71", "72", "73", "74", "76", "77", "78", "81", "82", "83", "84", "85", "86", "87", "90", "91", "92", "94", "95", "96", "97", "98", "99", "100", "101", "102", "104", "107", "108", "109", "110", "111", "113", "114", "115", "116", "117", "118", "120", "121", "131", "136", "145", "146", "200"
+    };
+
+            // Sort the prices in ascending order as numbers
+            Array.Sort(prices, (a, b) => int.Parse(a, CultureInfo.InvariantCulture).CompareTo(int.Parse(b, CultureInfo.InvariantCulture)));
+
+            // Add the prices to the combobox
+            PricesDropdown.Items.AddRange(prices);
+
+            // Show the first item (lowest number) as selected
+            if (PricesDropdown.Items.Count > 0)
+            {
+                PricesDropdown.SelectedIndex = 0;
+                PricesDropdown.Text = PricesDropdown.Items[0]?.ToString();
             }
         }
     }

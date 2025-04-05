@@ -104,16 +104,20 @@ namespace Schedule1Recipes
             // Display Recipes stuff
             DisplayRecipesStuff();
 
-            // Show Weed Strains list
+            // Build the weed Strains list
             WeedStrainList WeedList = new(ListDropdown);
             WeedList.AddWeedList();
+
+            // Build the weed price list
+            WeedPricesChart WeedPriceList = new(ListDropdown, PricesDropdown);
+            WeedPriceList.BuildPricelist();
 
             // Show weed recipes
             WeedStrainRecipe WeedRecipes = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox, DrugAddictivenessProgressBar);
             WeedRecipes.ShowWeedStrainRecipe();
 
             // Add Weed Prices
-            BuildPricelist();
+            //BuildPricelist();
         }
 
         private void MethamphetamineButton_Click(object sender, EventArgs e)
@@ -134,7 +138,7 @@ namespace Schedule1Recipes
             AddMethamphetamineRecipes.ShowMethamphetamineStrainRecipe();
 
             // Add Methamphetamine Prices
-            BuildPricelist();
+            //BuildPricelist();
         }
 
         private void CocaineButton_Click(object sender, EventArgs e)
@@ -151,7 +155,7 @@ namespace Schedule1Recipes
             AddCocaineList.AddCocaineList();
 
             // Add Cocaine Prices
-            BuildPricelist();
+            //BuildPricelist();
 
             // Show Cocaine recipes
             CocaineStrainRecipe AddCocaineRecipes = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox, DrugAddictivenessProgressBar);
@@ -165,8 +169,8 @@ namespace Schedule1Recipes
             {
                 case "Weed Recipes":
 
-                    WeedPricesChart AddWeedRecipe = new(ListDropdown, PricesDropdown);
-                    AddWeedRecipe.AddWeedPricesChart();
+                    WeedPricesChart AddWeedStrains = new(ListDropdown, PricesDropdown);
+                    AddWeedStrains.AddWeedPricesChart();
                     
                     break;
                 case "Methamphetamine Recipes":
@@ -226,13 +230,14 @@ namespace Schedule1Recipes
             ListDropdown.Items.Clear();
             ListDropdown.Refresh();
             PricesDropdown.Items.Clear();
+            PricesDropdown.Refresh();
             PricesDropdown.Visible = true;
             DrugPrices.Visible = true;
             UncheckAll.Visible = true;
             ItemText.Visible = true;
             ListDropdown.Visible = true;
         }
-
+        /*
         private void BuildPricelist()
         {
             string[] items = new string[1201];
@@ -249,7 +254,7 @@ namespace Schedule1Recipes
             // Select the first item in the dropdown list
             PricesDropdown.Text = PricesDropdown.Items[0]?.ToString();
         }
-
+        */
         private void ListDropdown_KeyPress(object? sender, KeyPressEventArgs e)
         {
             string pressedKey = e.KeyChar.ToString();
