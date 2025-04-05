@@ -144,7 +144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;WeedButton.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="MethamphetamineButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
@@ -171,7 +171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MethamphetamineButton.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="CocaineButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
@@ -198,7 +198,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CocaineButton.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="DrugPrices.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -228,7 +228,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DrugPrices.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="PricesDropdown.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 79</value>
@@ -249,13 +249,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PricesDropdown.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="ItemText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="ItemText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 55</value>
+    <value>162, 57</value>
   </data>
   <data name="ItemText.Size" type="System.Drawing.Size, System.Drawing">
     <value>253, 18</value>
@@ -277,10 +277,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ItemText.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="ListDropdown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 79</value>
+    <value>162, 79</value>
   </data>
   <data name="ListDropdown.Size" type="System.Drawing.Size, System.Drawing">
     <value>253, 23</value>
@@ -298,7 +298,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ListDropdown.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="CheckedRecipeListBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 108</value>
@@ -319,7 +319,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CheckedRecipeListBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="SellPrice.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
@@ -346,7 +346,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SellPrice.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="ItemSellPrice.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
@@ -370,7 +370,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ItemSellPrice.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="UncheckAll.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
@@ -397,13 +397,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UncheckAll.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="AddictivenessTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="AddictivenessTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>495, 55</value>
+    <value>508, 55</value>
   </data>
   <data name="AddictivenessTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 18</value>
@@ -424,7 +424,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AddictivenessTextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="AddictivenessProgressTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
@@ -448,7 +448,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;AddictivenessProgressTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>694, 12</value>
@@ -469,7 +469,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="DonationButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt, style=Bold</value>
@@ -496,10 +496,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DonationButton.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="DrugAddictivenessProgressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>495, 79</value>
+    <value>508, 79</value>
   </data>
   <data name="DrugAddictivenessProgressBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 23</value>
@@ -517,7 +517,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DrugAddictivenessProgressBar.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>444, 414</value>
@@ -541,6 +541,33 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="ListAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 78</value>
+  </data>
+  <data name="ListAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="ListAll.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="ListAll.Text" xml:space="preserve">
+    <value>List all</value>
+  </data>
+  <data name="&gt;&gt;ListAll.Name" xml:space="preserve">
+    <value>ListAll</value>
+  </data>
+  <data name="&gt;&gt;ListAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ListAll.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

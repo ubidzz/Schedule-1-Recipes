@@ -1,8 +1,9 @@
 ﻿namespace Schedule1Recipes
 {
-    internal sealed class WeedStrainList(ComboBox ListDropdown)
+    internal sealed class WeedStrainList(ComboBox ListDropdown, ComboBox PricesDropdown)
     {
         private ComboBox ListDropdown { get; set; } = ListDropdown;
+        private ComboBox PricesDropdown { get; set; } = PricesDropdown;
 
         // List all weeds
         public void AddWeedList()
@@ -138,6 +139,7 @@
                 "White Smegma",
                 "White Stink"
             ];
+            ListDropdown.Items.Clear(); // Clear the old list
             Array.Sort(items);
             foreach (string item in items)
             {
@@ -145,6 +147,7 @@
             }
 
             ListDropdown.SelectedIndex = 0;
+            PricesDropdown.Text = "0";
         }
     }
 }

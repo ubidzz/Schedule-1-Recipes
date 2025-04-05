@@ -86,7 +86,7 @@ namespace Schedule1Recipes
                 UncheckAll.Visible = false;
                 pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
 
-
+                ListAll.Visible = false;
             }
             catch (Exception ex)
             {
@@ -103,10 +103,6 @@ namespace Schedule1Recipes
 
             // Display Recipes stuff
             DisplayRecipesStuff();
-
-            // Build the weed Strains list
-            WeedStrainList WeedList = new(ListDropdown);
-            WeedList.AddWeedList();
 
             // Build the weed price list
             WeedPricesChart WeedPriceList = new(ListDropdown, PricesDropdown);
@@ -171,7 +167,7 @@ namespace Schedule1Recipes
 
                     WeedPricesChart AddWeedStrains = new(ListDropdown, PricesDropdown);
                     AddWeedStrains.AddWeedPricesChart();
-                    
+
                     break;
                 case "Methamphetamine Recipes":
                     /*
@@ -236,25 +232,10 @@ namespace Schedule1Recipes
             UncheckAll.Visible = true;
             ItemText.Visible = true;
             ListDropdown.Visible = true;
+            ListAll.Visible = true;
         }
-        /*
-        private void BuildPricelist()
-        {
-            string[] items = new string[1201];
-            for (int i = 0; i <= 1200; i++)
-            {
-                items[i] = i.ToString(CultureInfo.InvariantCulture);
-            }
 
-            Array.Sort(items, (x, y) => int.Parse(x, CultureInfo.InvariantCulture).CompareTo(int.Parse(y, CultureInfo.InvariantCulture)));
-            foreach (string item in items)
-            {
-                PricesDropdown.Items.Add(item);
-            }
-            // Select the first item in the dropdown list
-            PricesDropdown.Text = PricesDropdown.Items[0]?.ToString();
-        }
-        */
+
         private void ListDropdown_KeyPress(object? sender, KeyPressEventArgs e)
         {
             string pressedKey = e.KeyChar.ToString();
@@ -273,25 +254,30 @@ namespace Schedule1Recipes
             }
         }
 
-        /*
-        private void SelectedWeedPrice()
+        private void ListAll_Click(object sender, EventArgs e)
         {
-            
-            string selectedValue = PricesDropdown1.SelectedItem.ToString();
-            switch (selectedValue)
+            string SelectedDrug = ItemText.Text;
+            switch (SelectedDrug)
             {
-                case "Value1":
-                    TextBox1.Visible = true;
+                case "Weed Recipes":
+
+                    WeedStrainList AddAllWeedStrains = new(ListDropdown, PricesDropdown);
+                    AddAllWeedStrains.AddWeedList();
+
                     break;
-                case "Value2":
-                    TextBox2.Visible = true;
+                case "Methamphetamine Recipes":
+                    /*
+                    MethamphetamineStrainRecipe AddMethamphetamineRecipe = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox);
+                    AddMethamphetamineRecipe.ShowMethamphetamineStrainRecipe();
+                    */
                     break;
-                default:
-                    TextBox1.Visible = false;
-                    TextBox2.Visible = false;
+                case "Cocaine Recipes":
+                    /*
+                    CocaineStrainRecipe AddCocaineRecipe = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox);
+                    AddCocaineRecipe.ShowCocaineStrainRecipe();
+                    */
                     break;
             }
         }
-        */
     }
 }

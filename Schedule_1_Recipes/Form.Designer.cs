@@ -46,6 +46,7 @@
             DonationButton = new Button();
             DrugAddictivenessProgressBar = new ProgressBar();
             textBox1 = new TextBox();
+            ListAll = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -170,12 +171,20 @@
             resources.ApplyResources(textBox1, "textBox1");
             textBox1.Name = "textBox1";
             // 
+            // ListAll
+            // 
+            resources.ApplyResources(ListAll, "ListAll");
+            ListAll.Name = "ListAll";
+            ListAll.UseVisualStyleBackColor = true;
+            ListAll.Click += ListAll_Click;
+            // 
             // Schedule1GameRecipes
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnablePreventFocusChange;
             BackColor = SystemColors.Control;
+            Controls.Add(ListAll);
             Controls.Add(textBox1);
             Controls.Add(DrugAddictivenessProgressBar);
             Controls.Add(DonationButton);
@@ -219,5 +228,6 @@
         private Button DonationButton;
         private ProgressBar DrugAddictivenessProgressBar;
         private TextBox textBox1;
+        private Button ListAll;
     }
 }
