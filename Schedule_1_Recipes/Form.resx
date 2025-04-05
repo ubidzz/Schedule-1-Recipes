@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="WeedButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="WeedButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="WeedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WeedButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="WeedButton.Text" xml:space="preserve">
+    <value>Weed</value>
+  </data>
+  <data name="&gt;&gt;WeedButton.Name" xml:space="preserve">
+    <value>WeedButton</value>
+  </data>
+  <data name="&gt;&gt;WeedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeedButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WeedButton.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="MethamphetamineButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="MethamphetamineButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 12</value>
+  </data>
+  <data name="MethamphetamineButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 23</value>
+  </data>
+  <data name="MethamphetamineButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="MethamphetamineButton.Text" xml:space="preserve">
+    <value>Methamphetamine</value>
+  </data>
+  <data name="&gt;&gt;MethamphetamineButton.Name" xml:space="preserve">
+    <value>MethamphetamineButton</value>
+  </data>
+  <data name="&gt;&gt;MethamphetamineButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MethamphetamineButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MethamphetamineButton.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="CocaineButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="CocaineButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 12</value>
+  </data>
+  <data name="CocaineButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="CocaineButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CocaineButton.Text" xml:space="preserve">
+    <value>Cocaine</value>
+  </data>
+  <data name="&gt;&gt;CocaineButton.Name" xml:space="preserve">
+    <value>CocaineButton</value>
+  </data>
+  <data name="&gt;&gt;CocaineButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CocaineButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CocaineButton.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="DrugPrices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DrugPrices.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="DrugPrices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 79</value>
+  </data>
+  <data name="DrugPrices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="DrugPrices.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DrugPrices.Text" xml:space="preserve">
+    <value>Prices: $</value>
+  </data>
+  <data name="&gt;&gt;DrugPrices.Name" xml:space="preserve">
+    <value>DrugPrices</value>
+  </data>
+  <data name="&gt;&gt;DrugPrices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DrugPrices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DrugPrices.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="PricesDropdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 79</value>
+  </data>
+  <data name="PricesDropdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 23</value>
+  </data>
+  <data name="PricesDropdown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PricesDropdown.Name" xml:space="preserve">
+    <value>PricesDropdown</value>
+  </data>
+  <data name="&gt;&gt;PricesDropdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PricesDropdown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PricesDropdown.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ItemText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ItemText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 55</value>
+  </data>
+  <data name="ItemText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 18</value>
+  </data>
+  <data name="ItemText.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ItemText.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;ItemText.Name" xml:space="preserve">
+    <value>ItemText</value>
+  </data>
+  <data name="&gt;&gt;ItemText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ItemText.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ListDropdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 79</value>
+  </data>
+  <data name="ListDropdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 23</value>
+  </data>
+  <data name="ListDropdown.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ListDropdown.Name" xml:space="preserve">
+    <value>ListDropdown</value>
+  </data>
+  <data name="&gt;&gt;ListDropdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListDropdown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ListDropdown.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CheckedRecipeListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 108</value>
+  </data>
+  <data name="CheckedRecipeListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 292</value>
+  </data>
+  <data name="CheckedRecipeListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;CheckedRecipeListBox.Name" xml:space="preserve">
+    <value>CheckedRecipeListBox</value>
+  </data>
+  <data name="&gt;&gt;CheckedRecipeListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckedRecipeListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CheckedRecipeListBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SellPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="SellPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 412</value>
+  </data>
+  <data name="SellPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 18</value>
+  </data>
+  <data name="SellPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="SellPrice.Text" xml:space="preserve">
+    <value>Sell Price:</value>
+  </data>
+  <data name="&gt;&gt;SellPrice.Name" xml:space="preserve">
+    <value>SellPrice</value>
+  </data>
+  <data name="&gt;&gt;SellPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SellPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SellPrice.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ItemSellPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ItemSellPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 412</value>
+  </data>
+  <data name="ItemSellPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 18</value>
+  </data>
+  <data name="ItemSellPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ItemSellPrice.Name" xml:space="preserve">
+    <value>ItemSellPrice</value>
+  </data>
+  <data name="&gt;&gt;ItemSellPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemSellPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ItemSellPrice.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="UncheckAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="UncheckAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 406</value>
+  </data>
+  <data name="UncheckAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 28</value>
+  </data>
+  <data name="UncheckAll.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="UncheckAll.Text" xml:space="preserve">
+    <value>Uncheck All</value>
+  </data>
+  <data name="&gt;&gt;UncheckAll.Name" xml:space="preserve">
+    <value>UncheckAll</value>
+  </data>
+  <data name="&gt;&gt;UncheckAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UncheckAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UncheckAll.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AddictivenessTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="AddictivenessTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 55</value>
+  </data>
+  <data name="AddictivenessTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="AddictivenessTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="AddictivenessTextBox.Text" xml:space="preserve">
+    <value>Drug Addictiveness:</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessTextBox.Name" xml:space="preserve">
+    <value>AddictivenessTextBox</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AddictivenessProgressTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="AddictivenessProgressTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 57</value>
+  </data>
+  <data name="AddictivenessProgressTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="AddictivenessProgressTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessProgressTextBox.Name" xml:space="preserve">
+    <value>AddictivenessProgressTextBox</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessProgressTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessProgressTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddictivenessProgressTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 12</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 90</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DonationButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="DonationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 406</value>
+  </data>
+  <data name="DonationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="DonationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="DonationButton.Text" xml:space="preserve">
+    <value>Donate</value>
+  </data>
+  <data name="&gt;&gt;DonationButton.Name" xml:space="preserve">
+    <value>DonationButton</value>
+  </data>
+  <data name="&gt;&gt;DonationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DonationButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DonationButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DrugAddictivenessProgressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 79</value>
+  </data>
+  <data name="DrugAddictivenessProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 23</value>
+  </data>
+  <data name="DrugAddictivenessProgressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;DrugAddictivenessProgressBar.Name" xml:space="preserve">
+    <value>DrugAddictivenessProgressBar</value>
+  </data>
+  <data name="&gt;&gt;DrugAddictivenessProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DrugAddictivenessProgressBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DrugAddictivenessProgressBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 414</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>per item</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 443</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAJAAAAFwAAAB8AAAAhAAAAIgAAACMAAAAjAAAAIwAAACMAAAAjAAAAIwAA
+        ACMAAAAjAAAAIwAAACMAAAAjAAAAIwAAACMAAAAjAAAAIwAAACMAAAAiAAAAIgAAACAAAAAZAAAACwAA
+        AAEAAAAAAAAAAAAAAAAAAAACAAAAHAAAA1oBAgaOAQQHogEEB6YCBQenAgUHqAIFB6gCBQeoAgYHqAIG
+        B6gCBgeoAgcHqAMHB6gDBweoAgcHqAIGB6gCBgeoAgYHqAIGB6gCBQeoAgUHqAIFB6cBBAenAQQHowEC
+        BpEAAANeAAAAIAAAAAIAAAAAAAAAAAAAAB0BAgZ+AyIK4AdJB/wKVwb/DFoG/w1eBv8PYgb/EGYG/xJp
+        Bv8UbQb/FXEG/xd1Bv8YeQb/Gn0G/xt/Bv8aewb/GHgG/xZ0Bv8Vbwb/E2sG/xFnBv8PYwb/Dl8G/wxb
+        Bv8KWAb/CEwH/AMiCuIBAgaDAAAAIAAAAAEAAAAJAQADWgIgCt8GYwL/DoMA/xCCAP8QggD/EYMA/xGE
+        AP8RhgD/EocA/xKIAP8TiQD/E4oA/xOMAP8UjQD/FI0A/xSNAf8TjAH/E4sB/xOKAf8SiQH/EogB/xKH
+        Af8RhgH/EYUC/xCFAf8RigD/DnYC/wQjCuIAAAJeAAAACgAAABgBAgaOAj4G+wpfB/8pYSj/QGpA/0ly
+        Sf9OeU//U4BV/1iHWv9djWD/YpRl/2eaav9roHD/b6Z0/3Kpd/90rHr/dK17/3WufP91r33/dK99/3Ou
+        fP9yrXv/cax6/2+peP9tp3b/Y6Ft/zaJPv8OfAb/ClIG/AEBBpEAAAAZAAAAIgEEB6MCQwb+THNL/5KT
+        k/+hoKH/rKyt/7e2t//BwcL/zMvM/9XU1f/e3t7/5ubm/+7u7v/19PX/9/f3//n4+f/4+Pj/9vb2//Tz
+        9P/w8PD/7Ovs/+bm5//h4OH/2trb/9PT0//Ly8v/s7+3/0qLUf8HUgb/AgcHowAAAB8AAAAmAgcGqQVM
+        Bf9Abz//jY2N/5ybnP+npaf/sa+x/7u5u//Ew8X/zczO/9bV1//e3N7/5eTm/+vq7P/u7O//7+7w/+/t
+        7//t6+3/6unr/+fl5//i4eP/3tze/9jW2P/S0NL/y8nL/8PCxP+/u77/j6KR/w5JE/8ABQWnAAAAIgAA
+        ACcCBgarDlwF/wtqBP8pYCf/Pmk9/0RxQv9JeUf/T4FN/1SJUv9akVf/X5lc/2ShYf9pqGb/ba9q/3G0
+        bf9zuG//c7hw/3K3cf9ytXL/cLNy/2+wcf9trnH/a6pv/2imbv9lomz/Yp1p/2ybdP97lX//FEYZ/wAE
+        BacAAAAiAAAAKAIFBqwQWgX/FokA/xCCAP8PgQD/EYUA/xKKAP8UjQD/FZIA/xeWAP8YmgD/Gp8A/xyj
+        AP8dpwD/H6sA/yCtAP8fqgD/HaYA/xyiAP8angD/GJoA/xeWAP8VkgD/FI4A/xKKAf8QhgH/D4AF/xt1
+        HP8IQw7/AQQGqAAAACMAAAAoAgUGrBBZBf8XhwD/Go4A/xqSAP8dkQf/H5cL/xuTAP8bkwD/G5MA/xuT
+        AP8bkwD/G5MA/xuTAP8bkwD/G5MA/xuTAP8bkwD/G5MA/xuTAP8bkwD/G5MA/xuTAP8bkwD/G5IA/xqQ
+        AP8ZjQD/E4cA/wVOBv8BBAeoAAAAIwAAACgCBQasEFoF/xmOAP8bmAD/HZwA/yCZCf8ioQ7/HZ4A/x2e
+        AP8dngD/HZ4A/x2eAP8dngD/HZ4A/x2eAP8dngD/HZ4A/x2eAP8dngD/HZ4A/x2eAP8dngD/HZ4A/x2e
+        AP8dnQD/HJoA/xqRAP8XhgD/DlwG/wEEBqgAAAAjAAAAKAIEBqwPWAX/GJAA/xydAP8dogD/IJ0J/yKl
+        Df8dogD/HaIA/x2iAP8dogD/HaIA/x2iAP8dogD/HaIA/x2iAP8dogD/HaIA/x2iAP8dogD/HaIA/x2i
+        AP8dogD/HaIA/x2iAP8doQD/G5oA/xeLAP8PWgX/AgYGqAAAACMAAAAoAgQGrA5VBf8XjQD/GpkA/xuc
+        AP8emAn/IKAN/xucAP8bnAD/G5wA/xucAP8amwD/GZsA/xmbAP8ZmwD/GZsA/xmbAP8ZmwD/GZsA/xmb
+        AP8bnAD/G5wA/xucAP8bnAD/G5wA/xucAP8amQD/F40A/w5WBf8CBAaoAAAAIwAAACgCBAasDFIF/xSH
+        AP8YkwD/GJUA/xuRCf8dmQ3/GJUA/xiVAP8YlQD/GJUA/yOaDP8pnRP/KZ0T/ymdE/8pnRP/KZ0T/ymd
+        E/8pnRP/KJwR/xuWBP8YlQD/GJUA/xiVAP8YlQD/GJUA/xiUAP8ViQD/DVMF/wIEBqgAAAAjAAAAKAIE
+        BqwLTgX/EoIA/xWNAP8VjgD/GIsJ/xqTDf8VjgD/FY4A/xWOAP8XjgP/jMGF/87ky//M5Mj/zOTI/8zl
+        yP/M5cj/zOTI/83kyf+92Ln/O5wq/xONAP8VjgD/FY4A/xWOAP8VjgD/FY0A/xOEAP8LUAX/AgQGqAAA
+        ACMAAAAoAgQGrApLBf8QfAD/EocA/xKIAP8Vhgn/GI4N/xKIAP8SiAD/EogA/xOIAv8+lT7/VaBc/1Wk
+        W/9WqFv/Vqxb/1asW/9WqFv/VaRb/1CdVf8gixT/EYgA/xKIAP8SiAD/EogA/xKIAP8ShwD/EH8A/wpM
+        Bf8CBAaoAAAAIwAAACgCBAasCUgF/w53AP8QggD/EIMA/xOBCf8WiQ3/EIMA/xCDAP8QgwD/EYMB/z+a
+        Nf9bqlP/WqpS/1qqUv9aqlL/WqpS/1qqUv9aqlL/VadN/yCLEv8PgwD/EIMA/xCDAP8QgwD/EIMA/xCC
+        AP8OegD/CUkF/wIEBqgAAAAjAAAAKAEDBqwIRQX/DHIA/w58AP8OfQD/EXwJ/xSEDf8OfQD/Dn0A/w59
+        AP8RfQP/ocOe//X09f/y8/L/8vPy//Lz8v/y8/L/8vPy//P08//l6uT/QZU2/wt8AP8OfQD/Dn0A/w59
+        AP8OfQD/DnwA/wx1AP8IRgX/AgMGqAAAACMAAAAoAQMGrAdCBf8KbgD/DHcA/wx4AP8PeAn/En8N/wx4
+        AP8MeAD/C3gA/wx3A/+ev53/8fDx/+7u7v/u7u7/7u7u/+7u7v/u7u7/7+/v/+Lm4f88jzb/B3YA/wx4
+        AP8MeAD/DHgA/wx4AP8MdwD/C3AA/wdEBf8BAwaoAAAAIwAAACgBAwasBkAF/wlqAP8KcwD/CnQA/w10
+        Cf8Qew3/CnQA/wlzAP8Rdwj/QI44/7fLtv/m5eb/5OTk/+Tk5P/k5OT/5OTk/+Tk5P/k5OT/3uHe/2+n
+        av8gfxj/CXMA/wp0AP8KdAD/CnQA/wpzAP8JbAD/BkEF/wEDBqgAAAAjAAAAKAEDBqwFPQX/B2UA/whu
+        AP8IbwD/DHAJ/w53Df8HbgD/D3II/3uoeP/P08//2dnZ/9nZ2f/Z2dn/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ
+        2f/Z2dn/19jX/7DDr/8zhC3/Bm4A/whvAP8IbwD/CG4A/wdnAP8FPwX/AQMGqAAAACMAAAAoAQMGrAQ7
+        Bf8GYgD/B2sA/wdsAP8LbQn/DXQN/wRqAP86gTX/w8XD/83Mzf/Ly8v/y8vL/8vLy//Ly8v/y8vL/8vL
+        y//Ly8v/y8vL/8vLy//Ly8v/0M3Q/4Olgv8JbQP/B2wA/wdsAP8HawD/BmQA/wQ9Bf8BAwaoAAAAIwAA
+        ACgBAwasAzkF/wRfAP8FZwD/BWgA/wlpCf8LcQ3/AmcA/zx9O/+1tbX/u7u7/7u7u/+7u7v/vLu8/7u7
+        u/+7u7v/u7u7/7y7vP+8u7z/u7u7/7u7u/++vL7/gpyC/wlpBf8FaAD/BWgA/wVnAP8EYQD/BDoF/wED
+        BqgAAAAjAAAAJwEDBqwDOAX/A1wA/wRkAP8EZQD/CGcJ/wpuDf8DZAD/E2sU/3eOe/+mpKb/qaeo/52h
+        nf98lX//m6Cc/6mmqP+mpab/hpuJ/4qajP+npab/qaeo/5mem/88ekD/A2UA/wRlAP8EZQD/BGQA/wRe
+        AP8DOQX/AQMGqAAAACMAAAAnAQMGqwM3Bf8DWgD/A2IA/wNjAP8HZQn/CWwN/wNjAP8DZAH/GW0h/0h6
+        Uv9Wfl7/N3lB/xJxGv82gD//V4te/0yJU/8cdyT/IHUp/01+Vv9UfV3/MHQ6/wdnCf8DYwD/A2MA/wNj
+        AP8DYgD/A1sA/wM3Bf8BAwanAAAAIgAAACYBAwapAjUF/wJXAP8CXwD/AmAA/wZiCf8Iag3/AmAA/wJg
+        AP8BYQH/BGUI/wZnDP8CZAT/AWAA/wJkBP8HbAz/BWgI/wFhAf8BYQH/BWcJ/wZnDP8CYwP/AmAA/wJg
+        AP8CYAD/AmAA/wJfAP8CWAD/AjUF/wEDB6YAAAAhAAAAIQEDB6ICMwX+AVMA/wFcAP8BXgD/BWEJ/wdp
+        Df8BXwD/AV8A/wFfAP8BXgD/AV4A/wFeAP8BXwD/AV4A/wFeAP8BXgD/AV8A/wFfAP8BXgD/AV4A/wFf
+        AP8BXwD/AV8A/wFfAP8BXwD/AVwA/wFVAP8CNAX/AQMHogAAAB8AAAAWAQEGigEsBvoATQD/AFUA/wBa
+        AP8EXgn/BmYN/wBcAP8AXAD/AFwA/wBcAP8AXAD/AFwA/wBcAP8AXAD/AFwA/wBcAP8AXAD/AFwA/wBc
+        AP8AXAD/AFwA/wBcAP8AXAD/AFwA/wBbAP8AVgD/AE4A/wEsBvsBAQaOAAAAFwAAAAgBAANUAhYK2wA+
+        Av8ATAD/AFEA/wRXCf8GXw7/AFMA/wBUAP8AVAD/AFQA/wBUAP8AVAD/AFQA/wBUAP8AVAD/AFQA/wBU
+        AP8AVAD/AFQA/wBUAP8AVAD/AFQA/wBUAP8AVAD/AFIA/wBNAP8APwL/AhYK3wEAA1oAAAAJAAABAAAA
+        ABkBAgZ2AhYK2wEsBvsBMQX+BDYL/wU7Dv8BMwX/ATMF/wEzBf8BMwX/ATMF/wEzBf8BMwX/ATMF/wEz
+        Bf8BMwX/ATMF/wEzBf8BMwX/ATMF/wEzBf8BMwX/ATMF/wEzBf8BMgX+ASwG+wIWCt8BAgZ+AAAAHQAA
+        AAAAAAAAAAAAAQAAABkBAANUAQIHiwEDB6IBAwapAQMGqwEDBqwBAwasAQMGrAEDBqwBAwasAQMGrAED
+        BqwBAwasAQMGrAEDBqwBAwasAQMGrAEDBqwBAwasAQMGrAEDBqwBAwarAQMGqQEDB6MBAgaOAQADWgAA
+        AB0AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAWAAAAIQAAACYAAAAnAAAAJwAAACgAAAAoAAAAKAAA
+        ACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACcAAAAmAAAAIgAA
+        ABgAAAAJAAAAAQAAAAAAAAAAwAAAA4AAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACAAAABgAAAAeAAAAM=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Schedule 1 Game Recipes </value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Schedule1GameRecipes</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
