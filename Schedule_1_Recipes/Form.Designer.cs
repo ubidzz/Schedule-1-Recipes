@@ -173,6 +173,7 @@
             // 
             // ListAll
             // 
+            ListAll.Cursor = Cursors.Hand;
             resources.ApplyResources(ListAll, "ListAll");
             ListAll.Name = "ListAll";
             ListAll.UseVisualStyleBackColor = true;

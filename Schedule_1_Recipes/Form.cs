@@ -125,9 +125,9 @@ namespace Schedule1Recipes
             // Display Recipes stuff
             DisplayRecipesStuff();
 
-            // Show Methamphetamine Strains list
-            MethamphetamineStrainList AddMethamphetamineList = new(ListDropdown);
-            AddMethamphetamineList.AddMethamphetamineList();
+            // Build the methamphetamine price list
+            MethamphetaminePriceChart MethPriceList = new(ListDropdown, PricesDropdown);
+            MethPriceList.BuildPricelist();
 
             // Show Methamphetamine recipes
             MethamphetamineStrainRecipe AddMethamphetamineRecipes = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox, DrugAddictivenessProgressBar);
@@ -170,10 +170,8 @@ namespace Schedule1Recipes
 
                     break;
                 case "Methamphetamine Recipes":
-                    /*
-                    MethamphetamineStrainRecipe AddMethamphetamineRecipe = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox);
-                    AddMethamphetamineRecipe.ShowMethamphetamineStrainRecipe();
-                    */
+                    MethamphetaminePriceChart AddMethStrains = new(ListDropdown, PricesDropdown);
+                    AddMethStrains.AddMethamphetaminePricesChart();
                     break;
                 case "Cocaine Recipes":
                     /*
@@ -257,19 +255,16 @@ namespace Schedule1Recipes
         private void ListAll_Click(object sender, EventArgs e)
         {
             string SelectedDrug = ItemText.Text;
+            PricesDropdown.Text = "0";
             switch (SelectedDrug)
             {
                 case "Weed Recipes":
-
                     WeedStrainList AddAllWeedStrains = new(ListDropdown, PricesDropdown);
                     AddAllWeedStrains.AddWeedList();
-
                     break;
                 case "Methamphetamine Recipes":
-                    /*
-                    MethamphetamineStrainRecipe AddMethamphetamineRecipe = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox);
-                    AddMethamphetamineRecipe.ShowMethamphetamineStrainRecipe();
-                    */
+                    MethamphetamineStrainList AddMethamphetamineRecipe = new(ListDropdown, PricesDropdown);
+                    AddMethamphetamineRecipe.AddMethamphetamineList();
                     break;
                 case "Cocaine Recipes":
                     /*

@@ -145,9 +145,7 @@
             {
                 ListDropdown.Items.Add(item);
             }
-
             ListDropdown.SelectedIndex = 0;
-            PricesDropdown.Text = "0";
         }
     }
 }
