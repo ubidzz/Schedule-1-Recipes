@@ -111,9 +111,6 @@ namespace Schedule1Recipes
             // Show weed recipes
             WeedStrainRecipe WeedRecipes = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox, DrugAddictivenessProgressBar);
             WeedRecipes.ShowWeedStrainRecipe();
-
-            // Add Weed Prices
-            //BuildPricelist();
         }
 
         private void MethamphetamineButton_Click(object sender, EventArgs e)
@@ -132,9 +129,6 @@ namespace Schedule1Recipes
             // Show Methamphetamine recipes
             MethamphetamineStrainRecipe AddMethamphetamineRecipes = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox, DrugAddictivenessProgressBar);
             AddMethamphetamineRecipes.ShowMethamphetamineStrainRecipe();
-
-            // Add Methamphetamine Prices
-            //BuildPricelist();
         }
 
         private void CocaineButton_Click(object sender, EventArgs e)
@@ -145,14 +139,11 @@ namespace Schedule1Recipes
 
             // Display Recipes stuff
             DisplayRecipesStuff();
-
-            // Show Cocaine Strains list
-            CocaineStrainList AddCocaineList = new(ListDropdown);
-            AddCocaineList.AddCocaineList();
-
-            // Add Cocaine Prices
-            //BuildPricelist();
-
+            /*
+            // Build the Cocaine price list
+            CocainePriceChart CocainePriceList = new(ListDropdown, PricesDropdown);
+            CocainePriceList.BuildPricelist();
+            */
             // Show Cocaine recipes
             CocaineStrainRecipe AddCocaineRecipes = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox, DrugAddictivenessProgressBar);
             AddCocaineRecipes.ShowCocaineStrainRecipe();
@@ -259,17 +250,20 @@ namespace Schedule1Recipes
             switch (SelectedDrug)
             {
                 case "Weed Recipes":
+                    // Show Weed Strains list
                     WeedStrainList AddAllWeedStrains = new(ListDropdown, PricesDropdown);
                     AddAllWeedStrains.AddWeedList();
                     break;
                 case "Methamphetamine Recipes":
+                    // Show Methamphetamine Strains list
                     MethamphetamineStrainList AddMethamphetamineRecipe = new(ListDropdown, PricesDropdown);
                     AddMethamphetamineRecipe.AddMethamphetamineList();
                     break;
                 case "Cocaine Recipes":
                     /*
-                    CocaineStrainRecipe AddCocaineRecipe = new(ListDropdown, CheckedRecipeListBox, ItemSellPrice, AddictivenessProgressTextBox);
-                    AddCocaineRecipe.ShowCocaineStrainRecipe();
+                    // Show Cocaine Strains list
+                    CocaineStrainList AddCocaineList = new(ListDropdown, PricesDropdown);
+                    AddCocaineList.AddCocaineList();
                     */
                     break;
             }

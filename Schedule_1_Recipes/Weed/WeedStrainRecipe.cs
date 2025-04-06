@@ -137,7 +137,7 @@
                         CheckedRecipeListBox.Items.Add("Bio Puke + Cuke = Extreme Mokey", false);
                         CheckedRecipeListBox.Items.Add("Extreme Mokey + Mega Bean = White Cheese", false);
                         CheckedRecipeListBox.Items.Add("White Cheese + Battery = Girl Scout Punch", false);
-                        ItemSellPrice.Text = "$200";
+                        ItemSellPrice.Text = "$164";
                         AddictivenessProgressTextBox.Text = "100%";
                         DrugAddictivenessProgressBar.Value = 100;
                         break;
@@ -1331,6 +1331,158 @@
                         ItemSellPrice.Text = "$114";
                         AddictivenessProgressTextBox.Text = "100%";
                         DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Girl Scout Monkey":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Slime + Gasoline = Miracle Mint", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Mint + Paracetamol = Stinky Cock", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cock + Cuke = Tokyo Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Smegma + Mega Bean = LA Urkle", false);
+                        CheckedRecipeListBox.Items.Add("LA Urkle + Battery = Ice Cream Grool", false);
+                        CheckedRecipeListBox.Items.Add("Ice Cream Grool + Banana = Dream Ass", false);
+                        CheckedRecipeListBox.Items.Add("Dream Ass + Cuke = Girl Scout Monkey", false);
+                        ItemSellPrice.Text = "$171";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Dream Ass":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Slime + Gasoline = Miracle Mint", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Mint + Paracetamol = Stinky Cock", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cock + Cuke = Tokyo Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Smegma + Mega Bean = LA Urkle", false);
+                        CheckedRecipeListBox.Items.Add("LA Urkle + Battery = Ice Cream Grool", false);
+                        CheckedRecipeListBox.Items.Add("Ice Cream Grool + Banana = Dream Ass", false);
+                        ItemSellPrice.Text = "$155";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Ice Cream Grool":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Slime + Gasoline = Miracle Mint", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Mint + Paracetamol = Stinky Cock", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cock + Cuke = Tokyo Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Smegma + Mega Bean = LA Urkle", false);
+                        CheckedRecipeListBox.Items.Add("LA Urkle + Battery = Ice Cream Grool", false);
+                        ItemSellPrice.Text = "$115";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "LA Urkle":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Slime + Gasoline = Miracle Mint", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Mint + Paracetamol = Stinky Cock", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cock + Cuke = Tokyo Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Smegma + Mega Bean = LA Urkle", false);
+                        ItemSellPrice.Text = "$90";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Tokyo Smegma":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Slime + Gasoline = Miracle Mint", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Mint + Paracetamol = Stinky Cock", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cock + Cuke = Tokyo Smegma", false);
+                        ItemSellPrice.Text = "$65";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Stinky Cock":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Slime + Gasoline = Miracle Mint", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Mint + Paracetamol = Stinky Cock", false);
+                        ItemSellPrice.Text = "$60";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Miracle Mint":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        CheckedRecipeListBox.Items.Add("Miracle Slime + Gasoline = Miracle Mint", false);
+                        ItemSellPrice.Text = "$51";
+                        AddictivenessProgressTextBox.Text = "85%";
+                        DrugAddictivenessProgressBar.Value = 85;
+                        break;
+                    case "Miracle Slime":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Banana = Miracle Slime", false);
+                        ItemSellPrice.Text = "$50";
+                        AddictivenessProgressTextBox.Text = "37%";
+                        DrugAddictivenessProgressBar.Value = 37;
+                        break;
+                    case "LA Death":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        CheckedRecipeListBox.Items.Add("White Assblaster + Paracetamol = Thick Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Thick Diamond + Gasoline = Aspen Cookies", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Cookies + Cuke = Big Ghost", false);
+                        CheckedRecipeListBox.Items.Add("Big Ghost + Mega Bean = Stinky Cheese", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cheese + Paracetamol = Sexy Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Sexy Diamond + Mega Bean = Hairy Death", false);
+                        CheckedRecipeListBox.Items.Add("Hairy Death + Battery = LA Death", false);
+                        ItemSellPrice.Text = "$161";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Hairy Death":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        CheckedRecipeListBox.Items.Add("White Assblaster + Paracetamol = Thick Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Thick Diamond + Gasoline = Aspen Cookies", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Cookies + Cuke = Big Ghost", false);
+                        CheckedRecipeListBox.Items.Add("Big Ghost + Mega Bean = Stinky Cheese", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cheese + Paracetamol = Sexy Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Sexy Diamond + Mega Bean = Hairy Death", false);
+                        ItemSellPrice.Text = "$147";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Sexy Diamond":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        CheckedRecipeListBox.Items.Add("White Assblaster + Paracetamol = Thick Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Thick Diamond + Gasoline = Aspen Cookies", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Cookies + Cuke = Big Ghost", false);
+                        CheckedRecipeListBox.Items.Add("Big Ghost + Mega Bean = Stinky Cheese", false);
+                        CheckedRecipeListBox.Items.Add("Stinky Cheese + Paracetamol = Sexy Diamond", false);
+                        ItemSellPrice.Text = "$126";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Stinky Cheese":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        CheckedRecipeListBox.Items.Add("White Assblaster + Paracetamol = Thick Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Thick Diamond + Gasoline = Aspen Cookies", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Cookies + Cuke = Big Ghost", false);
+                        CheckedRecipeListBox.Items.Add("Big Ghost + Mega Bean = Stinky Cheese", false);
+                        ItemSellPrice.Text = "$126";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Big Ghost":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        CheckedRecipeListBox.Items.Add("White Assblaster + Paracetamol = Thick Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Thick Diamond + Gasoline = Aspen Cookies", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Cookies + Cuke = Big Ghost", false);
+                        ItemSellPrice.Text = "$88";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Aspen Cookies":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        CheckedRecipeListBox.Items.Add("White Assblaster + Paracetamol = Thick Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Thick Diamond + Gasoline = Aspen Cookies", false);
+                        ItemSellPrice.Text = "$81";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Thick Diamond":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        CheckedRecipeListBox.Items.Add("White Assblaster + Paracetamol = Thick Diamond", false);
+                        ItemSellPrice.Text = "$74";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "White Assblaster":
+                        CheckedRecipeListBox.Items.Add("OG Kush + Horse Semen = White Assblaster", false);
+                        ItemSellPrice.Text = "$57";
+                        AddictivenessProgressTextBox.Text = "65%";
+                        DrugAddictivenessProgressBar.Value = 65;
                         break;
                 }
             }
