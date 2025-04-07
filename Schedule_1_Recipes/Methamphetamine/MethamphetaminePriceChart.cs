@@ -14,10 +14,34 @@ namespace Schedule1Recipes
 
             switch (SelectedWeed)
             {
+                case "84": items = ["Strawy Crack"]; break;
+                case "85": items = ["Aspen Cake", "Banana Urkle", "Big Shart"]; break;
+                case "91": items = ["Fat Ass"]; break;
                 case "94": items = ["Shiny Mint", "Big Balls"]; break;
-                case "147": items = ["Strawberry Fuel", "Aspen Stink"]; break;
+                case "95": items = ["Slimy Urkle"]; break;
+                case "101": items = ["Gorilla Bud"]; break;
+                case "102": items = ["Sweet Smegma"]; break;
+                case "105": items = ["Dark Urkle"]; break;
+                case "106": items = ["Gorilla Assblaster", "Death Thunderfuck"]; break;
+                case "113": items = ["Tokyo McLovin", "Ice Cream Death"]; break;
+                case "120": items = ["Bio Fuel"]; break;
+                case "122": items = ["Sweet Sliime", "Stinky Queef", "Weddding Ghost"]; break;
+                case "123": items = ["Tokyo Express", "Sliny Fuel", "Gorilla McLovin"]; break;
+                case "125": items = ["ASpen Stink"]; break;
+                case "133": items = ["Sexy Death"]; break;
+                case "136": items = ["Tokyo Fruit"]; break;
+                case "139": items = ["Fat Durkle"]; break;
+                case "147": items = ["Strawberry Fuel", "Aspen Stink", "Slimy Bud"]; break;
+                case "151": items = ["Gorilla Cake"]; break;
+                case "160": items = ["Nightmare Puke"]; break;
+                case "161": items = ["Stawberry Cum"]; break;
+                case "162": items = ["Afghtan Fruit", "Banana Cookies"]; break;
+                case "167": items = ["Sexy Puke", "Slimy Bud"]; break;
                 case "175": items = ["LA Balls"]; break;
-                case "231": items = ["Bannana McLovin"]; break;
+                case "188": items = ["Afghan Cum"]; break;
+                case "189": items = ["California Monkey"]; break;
+                case "196": items = ["Aspen Fuel"]; break;
+                case "231": items = ["Bannana McLovin", "Banana McLovin"]; break;
                 case "267": items = ["Stinky Punch"]; break;
                 case "343": items = ["Strawbery Bud"]; break;
             }
@@ -35,9 +59,37 @@ namespace Schedule1Recipes
         public void BuildPricelist()
         {
             string[] prices = [
-                "94", "147", "175", "231", "267", "343"
+                "84",
+                "85",
+                "91",
+                "94",
+                "95",
+                "101",
+                "102",
+                "105",
+                "106",
+                "113",
+                "120",
+                "122",
+                "123",
+                "125",
+                "133",
+                "136",
+                "139",
+                "147",
+                "151",
+                "160",
+                "161",
+                "162",
+                "167",
+                "175",
+                "188",
+                "189",
+                "196",
+                "231",
+                "267",
+                "343"
             ];
-
             // Sort the prices in ascending order as numbers
             Array.Sort(prices, (a, b) => int.Parse(a, CultureInfo.InvariantCulture).CompareTo(int.Parse(b, CultureInfo.InvariantCulture)));
 
