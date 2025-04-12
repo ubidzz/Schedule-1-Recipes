@@ -457,7 +457,106 @@
                         ItemSellPrice.Text = "$97";
                         AddictivenessProgressTextBox.Text = "100%";
                         DrugAddictivenessProgressBar.Value = 100;
-                        break; 
+                        break;
+                    case "Extreme Cake":
+                        CheckedRecipeListBox.Items.Add("Meth + Horse Semen = Death Thunderfuck", false);
+                        CheckedRecipeListBox.Items.Add("Death Thunderfuck + Paracetamol = Shiny Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Shiny Fuel + Gasoline = Fat Durkle", false);
+                        CheckedRecipeListBox.Items.Add("Fat Durkle + Cuke = Slimy Bud", false);
+                        CheckedRecipeListBox.Items.Add("Slimy Bud + mega Bean = Big Shart", false);
+                        CheckedRecipeListBox.Items.Add("Big Shart + Paracetamol = Ultra Cheese", false);
+                        CheckedRecipeListBox.Items.Add("Ultra Cheese + Mega Bean = Extreme Cake", false);
+                        ItemSellPrice.Text = "$256";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Ultra Cheese":
+                        CheckedRecipeListBox.Items.Add("Meth + Horse Semen = Death Thunderfuck", false);
+                        CheckedRecipeListBox.Items.Add("Death Thunderfuck + Paracetamol = Shiny Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Shiny Fuel + Gasoline = Fat Durkle", false);
+                        CheckedRecipeListBox.Items.Add("Fat Durkle + Cuke = Slimy Bud", false);
+                        CheckedRecipeListBox.Items.Add("Slimy Bud + mega Bean = Big Shart", false);
+                        CheckedRecipeListBox.Items.Add("Big Shart + Paracetamol = Ultra Cheese", false);
+                        ItemSellPrice.Text = "$214";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Shiny Fuel":
+                        CheckedRecipeListBox.Items.Add("Meth + Horse Semen = Death Thunderfuck", false);
+                        CheckedRecipeListBox.Items.Add("Death Thunderfuck + Paracetamol = Shiny Fuel", false);
+                        ItemSellPrice.Text = "$123";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Extreme Cheese":
+                        CheckedRecipeListBox.Items.Add("Meth + Paracetamol = Ultra Queef", false);
+                        CheckedRecipeListBox.Items.Add("Ultra Queef + Cuke = Banana Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Banana Urkle + Paracetamol = Mega Fruit", false);
+                        CheckedRecipeListBox.Items.Add("Mega Fruit + Gasoline = Extreme Shart", false);
+                        CheckedRecipeListBox.Items.Add("Extreme Shart + Cuke = Granddaddy Crack", false);
+                        CheckedRecipeListBox.Items.Add("Granddaddy Crack + Mega Bean = Super Crack", false);
+                        CheckedRecipeListBox.Items.Add("Super Crack + Battery = Gorilla Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Gorilla Smegma + Horse Semen = Extreme Cheese", false);
+                        ItemSellPrice.Text = "$326";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Gorilla Smegma":
+                        CheckedRecipeListBox.Items.Add("Meth + Paracetamol = Ultra Queef", false);
+                        CheckedRecipeListBox.Items.Add("Ultra Queef + Cuke = Banana Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Banana Urkle + Paracetamol = Mega Fruit", false);
+                        CheckedRecipeListBox.Items.Add("Mega Fruit + Gasoline = Extreme Shart", false);
+                        CheckedRecipeListBox.Items.Add("Extreme Shart + Cuke = Granddaddy Crack", false);
+                        CheckedRecipeListBox.Items.Add("Granddaddy Crack + Mega Bean = Super Crack", false);
+                        CheckedRecipeListBox.Items.Add("Super Crack + Battery = Gorilla Smegma", false);
+                        ItemSellPrice.Text = "$290";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Super Crack":
+                        CheckedRecipeListBox.Items.Add("Meth + Paracetamol = Ultra Queef", false);
+                        CheckedRecipeListBox.Items.Add("Ultra Queef + Cuke = Banana Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Banana Urkle + Paracetamol = Mega Fruit", false);
+                        CheckedRecipeListBox.Items.Add("Mega Fruit + Gasoline = Extreme Shart", false);
+                        CheckedRecipeListBox.Items.Add("Extreme Shart + Cuke = Granddaddy Crack", false);
+                        CheckedRecipeListBox.Items.Add("Granddaddy Crack + Mega Bean = Super Crack", false);
+                        ItemSellPrice.Text = "$234";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Granddaddy Crack":
+                        CheckedRecipeListBox.Items.Add("Meth + Paracetamol = Ultra Queef", false);
+                        CheckedRecipeListBox.Items.Add("Ultra Queef + Cuke = Banana Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Banana Urkle + Paracetamol = Mega Fruit", false);
+                        CheckedRecipeListBox.Items.Add("Mega Fruit + Gasoline = Extreme Shart", false);
+                        CheckedRecipeListBox.Items.Add("Extreme Shart + Cuke = Granddaddy Crack", false);
+                        ItemSellPrice.Text = "$158";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Extreme Shart":
+                        CheckedRecipeListBox.Items.Add("Meth + Paracetamol = Ultra Queef", false);
+                        CheckedRecipeListBox.Items.Add("Ultra Queef + Cuke = Banana Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Banana Urkle + Paracetamol = Mega Fruit", false);
+                        CheckedRecipeListBox.Items.Add("Mega Fruit + Gasoline = Extreme Shart", false);
+                        ItemSellPrice.Text = "$130";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Mega Fruit":
+                        CheckedRecipeListBox.Items.Add("Meth + Paracetamol = Ultra Queef", false);
+                        CheckedRecipeListBox.Items.Add("Ultra Queef + Cuke = Banana Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Banana Urkle + Paracetamol = Mega Fruit", false);
+                        ItemSellPrice.Text = "$108";
+                        AddictivenessProgressTextBox.Text = "92%";
+                        DrugAddictivenessProgressBar.Value = 92;
+                        break;
+                    case "Ultra Queef":
+                        CheckedRecipeListBox.Items.Add("Meth + Paracetamol = Ultra Queef", false);
+                        ItemSellPrice.Text = "$87";
+                        AddictivenessProgressTextBox.Text = "92%";
+                        DrugAddictivenessProgressBar.Value = 92;
+                        break;
                 }
             }
         }

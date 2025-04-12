@@ -11,10 +11,12 @@
             string[] items = [
                 "Afghan Cum",
                 "Afghan Fruit",
+                "ASpen Stink",
                 "Aspen Cake",
-                "Aspen Stink",
+                "Aspen Fuel",
                 "Bananana Cookies",
                 "Bananana Urkle",
+                "Banana Cookies",
                 "Banana McLovin",
                 "Banana Urkle",
                 "Big Balls",
@@ -63,6 +65,7 @@
                 "Purple Shart",
                 "Sexy Death",
                 "Sexy Fruit",
+                "Sexy Puke",
                 "Shiny Bud",
                 "Shiny Fuel",
                 "Shiny Mint",
@@ -72,15 +75,16 @@
                 "Slimy Urkle",
                 "Sliny Fuel",
                 "Stawberry Cock",
+                "Stawberry Cum",
+                "Strawberry Bud",
                 "Strawberry Cum",
+                "Strawberry Fuel",
+                "Strawberry Urkle",
+                "Strawy Crack",
                 "Stinky Punch",
                 "Stinky Queef",
                 "Stinky Smegma",
                 "Stinky Thunderfuck",
-                "Strawberry Bud",
-                "Strawberry Fuel",
-                "Strawberry Urkle",
-                "Strawy Crack",
                 "Super Crack",
                 "Super Fuel",
                 "Sweet Death",
@@ -96,8 +100,8 @@
                 "Wedding Diesel",
                 "Wedding Haze",
                 "White Crack",
-                "White Durkle",
-                "White Dick"
+                "White Dick",
+                "White Durkle"
             ];
 
             ListDropdown.Items.Clear(); // Clear the old list
