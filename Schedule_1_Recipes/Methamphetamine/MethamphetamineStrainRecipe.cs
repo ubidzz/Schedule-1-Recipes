@@ -557,6 +557,67 @@
                         AddictivenessProgressTextBox.Text = "92%";
                         DrugAddictivenessProgressBar.Value = 92;
                         break;
+                    case "Extreme Piss":
+                        CheckedRecipeListBox.Items.Add("Meth + Banana = Strawberry Crack", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Crack + Paracetamol = Super Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Super Fuel + Gasoline = Fat Ass", false);
+                        CheckedRecipeListBox.Items.Add("Fat Ass + Cuke = Sweet Death", false);
+                        CheckedRecipeListBox.Items.Add("Sweet Death + Battery = Purple Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Purple Diamond + Horse Semen = Slimy Puke", false);
+                        CheckedRecipeListBox.Items.Add("Slimy Puke + Mega Bean = Extreme Piss", false);
+                        ItemSellPrice.Text = "$340";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Slimy Puke":
+                        CheckedRecipeListBox.Items.Add("Meth + Banana = Strawberry Crack", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Crack + Paracetamol = Super Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Super Fuel + Gasoline = Fat Ass", false);
+                        CheckedRecipeListBox.Items.Add("Fat Ass + Cuke = Sweet Death", false);
+                        CheckedRecipeListBox.Items.Add("Sweet Death + Battery = Purple Diamond", false);
+                        CheckedRecipeListBox.Items.Add("Purple Diamond + Horse Semen = Slimy Puke", false);
+                        ItemSellPrice.Text = "$265";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Purple Diamond":
+                        CheckedRecipeListBox.Items.Add("Meth + Banana = Strawberry Crack", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Crack + Paracetamol = Super Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Super Fuel + Gasoline = Fat Ass", false);
+                        CheckedRecipeListBox.Items.Add("Fat Ass + Cuke = Sweet Death", false);
+                        CheckedRecipeListBox.Items.Add("Sweet Death + Battery = Purple Diamond", false);
+                        ItemSellPrice.Text = "$224";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Sweet Death":
+                        CheckedRecipeListBox.Items.Add("Meth + Banana = Strawberry Crack", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Crack + Paracetamol = Super Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Super Fuel + Gasoline = Fat Ass", false);
+                        CheckedRecipeListBox.Items.Add("Fat Ass + Cuke = Sweet Death", false);
+                        ItemSellPrice.Text = "$168";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Super Fuel":
+                        CheckedRecipeListBox.Items.Add("Meth + Banana = Strawberry Crack", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Crack + Paracetamol = Super Fuel", false);
+                        ItemSellPrice.Text = "$118";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Strawberry Crack":
+                        CheckedRecipeListBox.Items.Add("Meth + Banana = Strawberry Crack", false);
+                        ItemSellPrice.Text = "$84";
+                        AddictivenessProgressTextBox.Text = "60%";
+                        DrugAddictivenessProgressBar.Value = 60;
+                        break;
+                    case "Fat Balls":
+                        CheckedRecipeListBox.Items.Add("Meth + Banana = Fat Balls", false);
+                        ItemSellPrice.Text = "$91";
+                        AddictivenessProgressTextBox.Text = "60%";
+                        DrugAddictivenessProgressBar.Value = 60;
+                        break;
                 }
             }
         }

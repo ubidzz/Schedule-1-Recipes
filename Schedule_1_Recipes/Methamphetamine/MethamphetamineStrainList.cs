@@ -58,6 +58,7 @@
                 "Miracle Cock",
                 "Miracle Durkle",
                 "Nightmare Fruit",
+                "Nightmare Puke",
                 "Pink Thunderfuck",
                 "Purple Diamond",
                 "Purple Gold",
@@ -77,6 +78,7 @@
                 "Stawberry Cock",
                 "Stawberry Cum",
                 "Strawberry Bud",
+                "Strawberry Crack",
                 "Strawberry Cum",
                 "Strawberry Fuel",
                 "Strawberry Urkle",
@@ -101,7 +103,8 @@
                 "Wedding Haze",
                 "White Crack",
                 "White Dick",
-                "White Durkle"
+                "White Durkle",
+                "Extreme Piss"
             ];
 
             ListDropdown.Items.Clear(); // Clear the old list
