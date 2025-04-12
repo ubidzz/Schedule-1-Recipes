@@ -9,7 +9,7 @@
         public void AddMethamphetamineList()
         {
             string[] items = [
-            "Afghan Cum",
+                "Afghan Cum",
                 "Afghan Fruit",
                 "Aspen Cake",
                 "Aspen Stink",
@@ -17,7 +17,6 @@
                 "Bananana Urkle",
                 "Banana McLovin",
                 "Banana Urkle",
-                "Bannana McLovin",
                 "Big Balls",
                 "Big Shart",
                 "Bio Fuel",
@@ -73,12 +72,12 @@
                 "Slimy Urkle",
                 "Sliny Fuel",
                 "Stawberry Cock",
+                "Strawberry Cum",
                 "Stinky Punch",
                 "Stinky Queef",
                 "Stinky Smegma",
                 "Stinky Thunderfuck",
-                "Strawbery Bud",
-                "Strawberry Cum",
+                "Strawberry Bud",
                 "Strawberry Fuel",
                 "Strawberry Urkle",
                 "Strawy Crack",
@@ -89,6 +88,7 @@
                 "Thick Ass",
                 "Tokyo Fruit",
                 "Tokyo McLovin",
+                "Tokyo Monkey",
                 "Ultra Cheese",
                 "Ultra Fuel",
                 "Ultra Queef",
@@ -96,6 +96,7 @@
                 "Wedding Diesel",
                 "Wedding Haze",
                 "White Crack",
+                "White Durkle",
                 "White Dick"
             ];
             ListDropdown.Items.Clear(); // Clear the old list

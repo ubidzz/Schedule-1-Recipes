@@ -371,6 +371,93 @@
                         AddictivenessProgressTextBox.Text = "60%";
                         DrugAddictivenessProgressBar.Value = 60;
                         break;
+                    case "California Urkle":
+                        CheckedRecipeListBox.Items.Add("Meth + Viagra = Sweet Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Sweet Smegma + Mouth Wash = Tokyo Express", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Express + Horse Semen = Nightmare Puke", false);
+                        CheckedRecipeListBox.Items.Add("Nightmare Puke + Energy Drink = Sexy Puke", false);
+                        CheckedRecipeListBox.Items.Add("Sexy Puke + Addy = Aspen Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Fuel + Donut = White Durkle", false);
+                        CheckedRecipeListBox.Items.Add("White Durkle + Chili = Tokyo Monkey", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Monkey + Banana = California Urkle", false);
+                        ItemSellPrice.Text = "$258";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Tokyo Monkey":
+                        CheckedRecipeListBox.Items.Add("Meth + Viagra = Sweet Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Sweet Smegma + Mouth Wash = Tokyo Express", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Express + Horse Semen = Nightmare Puke", false);
+                        CheckedRecipeListBox.Items.Add("Nightmare Puke + Energy Drink = Sexy Puke", false);
+                        CheckedRecipeListBox.Items.Add("Sexy Puke + Addy = Aspen Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Fuel + Donut = White Durkle", false);
+                        CheckedRecipeListBox.Items.Add("White Durkle + Chili = Tokyo Monkey", false);
+                        ItemSellPrice.Text = "$244";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "White Durkle":
+                        CheckedRecipeListBox.Items.Add("Meth + Viagra = Sweet Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Sweet Smegma + Mouth Wash = Tokyo Express", false);
+                        CheckedRecipeListBox.Items.Add("Tokyo Express + Horse Semen = Nightmare Puke", false);
+                        CheckedRecipeListBox.Items.Add("Nightmare Puke + Energy Drink = Sexy Puke", false);
+                        CheckedRecipeListBox.Items.Add("Sexy Puke + Addy = Aspen Fuel", false);
+                        CheckedRecipeListBox.Items.Add("Aspen Fuel + Donut = White Durkle", false);
+                        ItemSellPrice.Text = "$216";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Dark Cum":
+                        CheckedRecipeListBox.Items.Add("Meth + Chili = Mega Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Mega Smegma + Gasoline = Strawberry Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Urkle + Banana = Purple Shart", false);
+                        CheckedRecipeListBox.Items.Add("Purple Shart + Banana = Island Death", false);
+                        CheckedRecipeListBox.Items.Add("Island Death + Donut = Extreme Rhino", false);
+                        CheckedRecipeListBox.Items.Add("Extreme Rhino + Donut = Dark Cum", false);
+                        ItemSellPrice.Text = "$154";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Extreme Rhino":
+                        CheckedRecipeListBox.Items.Add("Meth + Chili = Mega Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Mega Smegma + Gasoline = Strawberry Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Urkle + Banana = Purple Shart", false);
+                        CheckedRecipeListBox.Items.Add("Purple Shart + Banana = Island Death", false);
+                        CheckedRecipeListBox.Items.Add("Island Death + Donut = Extreme Rhino", false);
+                        ItemSellPrice.Text = "$154";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Island Death":
+                        CheckedRecipeListBox.Items.Add("Meth + Chili = Mega Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Mega Smegma + Gasoline = Strawberry Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Urkle + Banana = Purple Shart", false);
+                        CheckedRecipeListBox.Items.Add("Purple Shart + Banana = Island Death", false);
+                        ItemSellPrice.Text = "$148";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Purple Shart":
+                        CheckedRecipeListBox.Items.Add("Meth + Chili = Mega Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Mega Smegma + Gasoline = Strawberry Urkle", false);
+                        CheckedRecipeListBox.Items.Add("Strawberry Urkle + Banana = Purple Shart", false);
+                        ItemSellPrice.Text = "$111";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Strawberry Urkle":
+                        CheckedRecipeListBox.Items.Add("Meth + Chili = Mega Smegma", false);
+                        CheckedRecipeListBox.Items.Add("Mega Smegma + Gasoline = Strawberry Urkle", false);
+                        ItemSellPrice.Text = "$97";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
+                    case "Mega Smegma":
+                        CheckedRecipeListBox.Items.Add("Meth + Chili = Mega Smegma", false);
+                        ItemSellPrice.Text = "$97";
+                        AddictivenessProgressTextBox.Text = "100%";
+                        DrugAddictivenessProgressBar.Value = 100;
+                        break;
                 }
             }
         }
