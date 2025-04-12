@@ -52,6 +52,7 @@ namespace Schedule1Recipes
                 case "267": items = ["Stinky Punch"]; break;
                 case "343": items = ["Strawbery Bud"]; break;
             }
+
             if (items != null && items.Length > 0)
             {
                 ListDropdown.Items.Clear(); // Clear the old list

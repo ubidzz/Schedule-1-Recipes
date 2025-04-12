@@ -457,7 +457,7 @@
                         ItemSellPrice.Text = "$97";
                         AddictivenessProgressTextBox.Text = "100%";
                         DrugAddictivenessProgressBar.Value = 100;
-                        break;
+                        break; 
                 }
             }
         }

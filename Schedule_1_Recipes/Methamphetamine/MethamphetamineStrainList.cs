@@ -99,7 +99,9 @@
                 "White Durkle",
                 "White Dick"
             ];
+
             ListDropdown.Items.Clear(); // Clear the old list
+
             Array.Sort(items);
             foreach (string item in items)
             {
